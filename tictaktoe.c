@@ -21,7 +21,7 @@ int main(){
 				square[3] = mark;
 			else if(choice == 4)
 				square[4] = mark;
-		    else if(choice == 5)
+		        else if(choice == 5)
 				square[5] = mark;
 			else if(choice == 6)
 				square[6] = mark;
