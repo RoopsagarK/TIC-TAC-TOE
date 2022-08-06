@@ -20,7 +20,7 @@ int main(){
 				square[3] = mark;
 			else if(choice == 4)
 				square[4] = mark;
-		    else if(choice == 5)
+		        else if(choice == 5)
 				square[5] = mark;
 			else if(choice == 6)
 				square[6] = mark;
@@ -87,6 +87,21 @@ void drawboard(){
     printf("\t\t\t--------------\n");
     printf("\t\t\t  %c | %c  | %c  \n\n",square[7],square[8],square[9]);  
 }
+/*Output:##TIC TAC TOE##
+
+                Player1 = 'X' && Player2 = 'O'
+
+                          X | O  | 3
+
+                        --------------
+
+                          4 | 5  | 6
+
+                        --------------
+
+                          7 | 8  | 9
+
+Player 1, enter the choice : 5*/	
 
 	
 	
